@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Front Page of Wrist Tock</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img src="/images/logo.png" height="70px" width="100px" alt="logo" />
+      <nav>
+        <ul class="menu">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/vote.html">Vote</a></li>
+          <li><a href="/favorites.html">Favorites</a></li>
+          <li><a href="/stats.html">Links</a></li>
+        </ul>
+      </nav>
+    </header>
+    <form>
+      <fieldset>
+        <legend>Contact Information</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" />
+        <br />
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" />
+        <br />
+        <label for="newsletter">Sign up for newsletter?</label>
+        <input type="checkbox" id="newsletter" name="newsletter" value="yes" />
+      </fieldset>
+      <br />
+      <label for="message">Message:</label>
+      <br />
+      <textarea id="message" name="message"></textarea>
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

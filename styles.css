@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #011936;
+  color: #e9edde;
+}
+
+.header a {
+  color: #e9edde;
+  text-decoration: none;
+}
+
+.header .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.header .menu {
+  list-style: none;
+  display: flex;
+}
+
+.header .menu li {
+  margin: 0 10px;
+}
+
+.first {
+  color: #e9edde;
+  background-image: url("../images/front-page-small.jpg");
+  padding-top: 280px;
+  padding-bottom: 500px;
+}
+
+.first h1 {
+  padding-bottom: 20px;
+}
+
+.first h1,
+h2,
+p {
+  padding-left: 20px;
+}
+
+form {
+  padding-top: 50px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: left;
+}
+
+legend {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+button[type="submit"] {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+article {
+  display: grid;
+  justify-content: center;
+}

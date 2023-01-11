@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #011936;
+  color: #e9edde;
+}
+
+.header a {
+  color: #e9edde;
+  text-decoration: none;
+}
+
+.header .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.header .menu {
+  list-style: none;
+  display: flex;
+}
+
+.header .menu li {
+  margin: 0 10px;
+}
+body {
+  background-color: #b8dbd9;
+}
+.container {
+  background-color: #f4f4f9;
+}
+
+.watch-1,
+.watch-2,
+.watch-3,
+.watch-4 {
+  display: flex;
+  flex-direction: column; /* change the layout direction to be in a column */
+  align-items: center; /* center the items within the column */
+  margin-bottom: 20px;
+}
+
+.watch-1 h1,
+.watch-2 h1,
+.watch-3 h1,
+.watch-4 h1 {
+  text-align: center; /* center the text */
+  margin-top: 20px; /* add some space between the image and the title */
+  margin-bottom: 20px;
+}
